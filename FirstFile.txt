@@ -1,0 +1,10 @@
+This is the first file
+for the Unix Project.
+This file must have
+at least 10 lines.
+The same thing should
+be done by other members
+of the team.
+This is related to
+Craig Justin Vi Balibalos
+who is a lazy boy.
