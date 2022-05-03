@@ -3,30 +3,28 @@
 <p align="center">
 <img height="500" src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2ViJTIwd2FsbHBhcGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="my banner"></p>
 
-<p style="text-align:center;">
-<h3>Hi there👋, this is team of Alihan Djamankulov, 
+<h3 style="text-align:center;">Hi there👋, this is team of Alihan Djamankulov, 
 Steven Facchino, and the chad himself Craig Justin Balibalos</h3>
-</p>
 
 <h2>We are doing a project where we create a VPS server and deploy the web server which will show our website with some webpages. </h2>
 
+
 # Project goals:
+### Create a VPS which will server as website containing several webpages of the popular computer game Dota 2
 
-Create a Web Server that provides information on a certain topic.
+<img src="https://c.tenor.com/XYg91Fy0iYcAAAAC/dota2-ijudas.gif" height="250px">
 
-# Platform choice:
-
-We will use VPS for our server.
+<img align=”left” src=”https://raw.githubusercontent.com/Smuglyak/Unix-project/main/images/settings.png" alt=”img” width=”21px”/># Platform choice:
+- Google Cloud VPS and Apache Server
 
 # Requirements:
 
-1. Set up multiple accounts: The server host will make accounts using the terminal and the
-   other users will connect using those accounts.
-2. Process the service management: We will check for updates on the services that we
+1. Set up multiple accounts: The server host will create accounts using the terminal and so that the other users will be able to connect using those accounts.
+1. Process the service management: We will check for updates on the services that we
    used by software such as cacti, mrtg, or munin.
-3. Basic Security System: Configure the server to make it HTTPS. Also, generate SSH keys to
+1. Basic Security System: Configure the server to make it HTTPS. Also, generate SSH keys to
    connect to the server.
-4. Automated Tasks: Write a script to show the date and time to the user (Not final: Write
+1. Automated Tasks: Write a script to show the date and time to the user (Not final: Write
    a script to check for updates for services used and install them).
 
 # Major technical solutions compared:
@@ -34,13 +32,11 @@ We will use VPS for our server.
 We will be comparing different Linux distributions, VPS providers, servers such as (Nginx,
 Apache) and software needed for managing the webserver.
 
-# VPS Provider:
-
+# VPS Provider: 
 We might use AWS or Google Cloud Computing Services since they have free
 trials.
 
-# Linux Distribution:
-
+# Linux Distribution: 
 For now, we think we will be using Ubuntu. It depends if the chosen distro
 will be compatible with our project.
 
