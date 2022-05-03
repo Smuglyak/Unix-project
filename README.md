@@ -36,7 +36,7 @@ Apache) and software needed for managing the webserver.
 
 # VPS Provider:
 
-We might use AWS or Google Cloud Computing Services since they have free
+We will be using Google Cloud Computing Services since they have free
 trials.
 
 # Linux Distribution:
@@ -44,7 +44,7 @@ trials.
 For now, we think we will be using Ubuntu. It depends if the chosen distro
 will be compatible with our project.
 
-Web Server Software: We will be using Nginx or Apache.
+Web Server Software: We will be using Apache.
 
 # Timeline:
 
