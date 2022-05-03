@@ -1,7 +1,8 @@
 # Install File
 
 <p align="center">
-<img height="" src="https://www.groovypost.com/wp-content/uploads/2016/08/paint-color-wallpaper-featured.jpg" alt="my banner"></p>
+<!-- <img height="" src="https://www.groovypost.com/wp-content/uploads/2016/08/paint-color-wallpaper-featured.jpg" alt="my banner"></p> -->
+<img src="https://cdn.wallpaperhub.app/cloudcache/f/5/0/1/4/7/f5014736627f4f9d08dd067618956c412fe3148b.jpg">
 
 ## Steps to install and deploy your own web-server
 
