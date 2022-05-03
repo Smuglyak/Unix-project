@@ -14,38 +14,33 @@ Steven Facchino, and the chad himself Craig Justin Balibalos</h3>
 
 <img src="https://c.tenor.com/XYg91Fy0iYcAAAAC/dota2-ijudas.gif" height="250px">
 
-<img align=”left” src=”https://raw.githubusercontent.com/Smuglyak/Unix-project/main/images/settings.png" alt=”img” width=”21px”/># Platform choice:
+# <img align="left" src="https://raw.githubusercontent.com/Smuglyak/Unix-project/main/images/settings.png" alt="img" width="50px"/> Platform choice:
 - Google Cloud VPS and Apache Server
 
-# Requirements:
+# <img align="left" src="https://raw.githubusercontent.com/Smuglyak/Unix-project/main/images/to-do-list.png" alt="img" width="50px"/> Requirements:
 
 1. Set up multiple accounts: The server host will create accounts using the terminal and so that the other users will be able to connect using those accounts.
 1. Process the service management: We will check for updates on the services that we
    used by software such as cacti, mrtg, or munin.
-1. Basic Security System: Configure the server to make it HTTPS. Also, generate SSH keys to
-   connect to the server.
-1. Automated Tasks: Write a script to show the date and time to the user (Not final: Write
-   a script to check for updates for services used and install them).
+1. Basic Security System: Configure the server to make it HTTPS. Also, generate SSH keys for security and easiness to connect to the server.
+1. Automated Tasks: Write a script to pull new files from github and put them automatically on the server
 
-# Major technical solutions compared:
+# <img align="left" src="https://raw.githubusercontent.com/Smuglyak/Unix-project/main/images/compare.png" alt="img" width="50px"/> Major technical solutions compared:
 
-We will be comparing different Linux distributions, VPS providers, servers such as (Nginx,
+We compare different Linux distributions, VPS providers, servers such as (Nginx,
 Apache) and software needed for managing the webserver.
 
-# VPS Provider: 
-We might use AWS or Google Cloud Computing Services since they have free
-trials.
+# <img align="left" src="https://raw.githubusercontent.com/Smuglyak/Unix-project/main/images/vps.png" alt="img" width="50px"/> VPS Provider: 
+We use the Google Cloud Web Services
 
-# Linux Distribution: 
-For now, we think we will be using Ubuntu. It depends if the chosen distro
-will be compatible with our project.
+# <img align="left" src="https://raw.githubusercontent.com/Smuglyak/Unix-project/main/images/linux.png" alt="img" width="50px"/> Linux Distribution: 
+We use the Ubuntu distribution.
 
-Web Server Software: We will be using Apache.
+Web Server Software: We use Apache web server
 
-# Timeline:
+# <img align="left" src="https://raw.githubusercontent.com/Smuglyak/Unix-project/main/images/schedule.png" alt="img" width="50px"/> Timeline:
 
-Week 12 – Edit Team Project Proposal, work on the journal, and create the Git repository and
-choose the VPS provider.
+Week 12 – Edit Team Project Proposal, work on the journal, and create the Git repository and choose the VPS provider.
 
 Week 13 – Request the service from the VPS provider, create the webserver using the Web
 Server Software and create multiple accounts.
