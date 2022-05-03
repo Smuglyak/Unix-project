@@ -1,0 +1,125 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+} */
+
+#container2 {
+  /* background: linear-gradient(135deg, #000000, #110f44); */
+  color: black;
+  background-color: white;
+  max-width: 1000px;
+  width: 100%;
+  padding: 25px 30px;
+  border-radius: 5px;
+}
+
+#container2 fieldset {
+  border: none;
+  padding-top: 0px;
+  margin: 0px;
+}
+
+#container2 .title {
+  font-weight: bold;
+  font-size: 10px;
+}
+
+#container2 label {
+  /* padding-bottom: 50px; */
+  font-size: 15px;
+}
+
+.personalInfo {
+  width: 100%;
+}
+
+#container2 input {
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#container2 form {
+  /* padding-left: 200px; */
+  padding-bottom: 200px;
+}
+
+.form input {
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+}
+
+#container2 form .left-input-box {
+  width: 48%;
+  float: left;
+}
+
+#container2 form .right-input-box {
+  width: 48%;
+  float: right;
+}
+
+#container2 form .doubleColumn2 .right-input-box select {
+  height: 20px;
+  width: 100px;
+}
+
+#container2 form .doubleColumn2 .right-input-box {
+  margin-top: 11px;
+}
+
+#container2 form .radioBoxes .boldLabel {
+  font-weight: bold;
+}
+
+#container2 form .radioBoxes label {
+  margin-right: 120px;
+}
+
+#container2 form hr.solid {
+  border-top: 1px solid #bbb;
+}
+
+#container2 form .radioBoxes input {
+  height:unset;
+  width: unset;
+}
+
+#container2 form .doubleColumn3 .left-input-box {
+width: 30%;
+}
+
+#container2 form .doubleColumn3 .right-input-box {
+  width: 30%;
+} 
+
+#container2 form .doubleColumn3 .right-input-box .centered-input-box {
+  margin-right: 60px;
+} 
+
+#container2 form .doubleColumn4 {
+  padding: 0px;
+}
+
+#container2 form .comments {
+  padding: 0px;
+  margin-top: 30px;
+}
+
+#container2 form .buttons {
+  margin-bottom: 40px;
+}
+
+#container2 {
+  margin: auto;
+}
