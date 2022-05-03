@@ -1,0 +1,59 @@
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h2 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h4 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h5 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h6 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  font-style: italic;
+  text-shadow: 1px 1px 0px rgb(255, 255, 255),
+    2px 5px 0px rgba(255, 255, 255, 0.15);
+}
+
+p {
+  text-align: center;
+  line-height: 50px;
+}
+
+.firstP::first-line {
+  text-transform: capitalize;
+}
+
+.secondP::first-letter {
+  text-transform: capitalize;
+  font-size: 50px;
+}
+
+.thirdP::first-letter {
+  text-transform: capitalize;
+  font-size: 50px;
+}
+
+::selection {
+  background-color: yellow;
+}

@@ -1,0 +1,243 @@
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url(https://fonts.google.com/share?selection.family=Roboto:wght@100);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div {
+  display: inherit;
+}
+
+html,
+body {
+  background-color: black;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  /* height: 100%; */
+  /* margin: 0px; */
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px, 10%;
+  height: auto;
+  margin: auto;
+}
+
+header nav {
+  height: auto;
+}
+
+.nav_links {
+  list-style: none;
+  margin-top: 30px;
+}
+
+/* .nav_links ul {
+  max-width: 100%;
+} */
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px, 20px;
+  padding-right: 20px;
+  margin: 15px;
+}
+
+.nav_links li a {
+  border-radius: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: auto;
+  background-color: #181717;
+  border-style: solid;
+  border-color: black;
+  transition: all 0.3s ease 0s;
+  padding: 10px;
+  white-space: nowrap;
+}
+/* 
+.liARight {
+  float: right;
+} */
+
+a:link {
+  opacity: 0.8;
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.hero_Images {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+/* .hero_Images >  {
+  flex: 1 1 33%;
+} */
+
+.hero_Images figure {
+  width: 210px;
+  background-color: rgb(33, 138, 138);
+  color: black;
+  border-radius: 20px;
+  gap: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 22%;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+  transition: background-image 0.1s ease-out 100ms;
+}
+
+.hero_Images {
+  overflow: hidden;
+}
+
+.hero_Images figure:hover {
+  transform: scale(120%);
+  transition: all 0.3s ease 0s;
+  /* background-color: rgba(202, 35, 35, 0.637); */
+  background-image: url("https://64.media.tumblr.com/56e0de54db427ddc2d8ba4f0717f9b6c/tumblr_otwzm1Sbb81runoqyo1_540.gifv");
+}
+
+.hero_Images figure img {
+  height: 200px;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+.hero_Images figure img:hover {
+  transform: rotate(360deg);
+  transition: all 1.5s ease 0s;
+}
+
+.hero_Images figure figcaption {
+  position: relative;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(26, 75, 75);
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  margin-top: 300px;
+  overflow: hidden;
+  border-radius: 20px;
+  height: 60px;
+  justify-content: center;
+}
+
+#currentPage {
+  background-color: #3a2525;
+}
+
+.listsArticle {
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.listsContainer {
+  display: flex;
+}
+
+#listsOl {
+  border-style: solid;
+  list-style-position: inside;
+  /* width: 50%; */
+  flex: 1;
+  margin-right: 300px;
+  font-weight: bold;
+  text-align: center;
+  height: fit-content;
+}
+
+#listsOl > ol {
+  list-style-type: upper-roman;
+  align-items: center;
+  padding-left: 0px;
+  width: 400px;
+  clear: both;
+}
+
+#listsOl > ol > li {
+  padding: 10px;
+  overflow: auto;
+}
+
+#listsOl > ol > li > img {
+  float: left;
+  height: 100px;
+}
+
+#listsOl li {
+  border-style: dashed;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: auto;
+}
+
+#listsOl li:hover {
+  background-color: rgb(44, 38, 44);
+}
+
+#listsUl {
+  border-style: dotted;
+  /* width: 50%; */
+  flex: 1;
+  text-align: center;
+}
+
+#listsUl > ul > li {
+  border-style: double;
+  font-size: 20px;
+  padding: 20px;
+  line-height: 55px;
+  position: relative;
+}
+
+#listsUl > ul {
+  padding-left: 0px;
+}
+
+#listsUl > ul > li {
+  width: 400px;
+  height: 243px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/clans/3703047/a74358db5b1f9ac09aba714613739ec334393b5f.jpg");
+}
+
+#listsUl > ul > li > div {
+  bottom: 0;
+  left: 45px;
+  display: flex;
+  align-self: flex-end;
+}
+
+#listsUl li:hover {
+  filter: brightness(50%);
+}
