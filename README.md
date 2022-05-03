@@ -2,7 +2,8 @@
 
 Unix Project
 
-<img src="https://user-images.githubusercontent.com/64287348/166395313-212b40b8-6c6b-424d-962d-574918b12b29.jpg" alt=”my banner”>
+<p align="center">
+<img src="![ales-nesetril-Im7lZjxeLhg-unsplash](https://user-images.githubusercontent.com/64287348/166395313-212b40b8-6c6b-424d-962d-574918b12b29.jpg)" alt=”my banner”></p>
 
 Project goals:
 Create a Web Server that provides information on a certain topic.
