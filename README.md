@@ -40,7 +40,7 @@ trials.
 For now, we think we will be using Ubuntu. It depends if the chosen distro
 will be compatible with our project.
 
-Web Server Software: We will be using Nginx or Apache.
+Web Server Software: We will be using Apache.
 
 # Timeline:
 
