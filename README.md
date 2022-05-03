@@ -8,13 +8,14 @@ Steven Facchino, and the chad himself Craig Justin Balibalos</h3>
 
 <h2>We are doing a project where we create a VPS server and deploy the web server which will show our website with some webpages. </h2>
 
-
 # Project goals:
+
 ### Create a VPS which will serve as website containing several webpages of the popular computer game Dota 2
 
 <img src="https://raw.githubusercontent.com/Smuglyak/Unix-project/main/images/dota2.gif" height="260px">
 
 # <img align="left" src="https://raw.githubusercontent.com/Smuglyak/Unix-project/main/images/settings.png" alt="img" width="50px"/> Platform choice:
+
 - Google Cloud VPS and Apache Server
 
 # <img align="left" src="https://raw.githubusercontent.com/Smuglyak/Unix-project/main/images/to-do-list.png" alt="img" width="50px"/> Requirements:
@@ -30,10 +31,12 @@ Steven Facchino, and the chad himself Craig Justin Balibalos</h3>
 We compare different Linux distributions, VPS providers, servers such as (Nginx,
 Apache) and software needed for managing the webserver.
 
-# <img align="left" src="https://raw.githubusercontent.com/Smuglyak/Unix-project/main/images/vps.png" alt="img" width="50px"/> VPS Provider: 
+# <img align="left" src="https://raw.githubusercontent.com/Smuglyak/Unix-project/main/images/vps.png" alt="img" width="50px"/> VPS Provider:
+
 We use the Google Cloud Web Services
 
-# <img align="left" src="https://raw.githubusercontent.com/Smuglyak/Unix-project/main/images/linux.png" alt="img" width="50px"/> Linux Distribution: 
+# <img align="left" src="https://raw.githubusercontent.com/Smuglyak/Unix-project/main/images/linux.png" alt="img" width="50px"/> Linux Distribution:
+
 We use the Ubuntu distribution.
 
 Web Server Software: We use Apache web server

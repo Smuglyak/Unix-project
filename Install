@@ -1,5 +1,0 @@
-1) Go to Google Cloud and create an account
-2) Then, choose a package, and create the vps instance
-3) Open the vps, and change the admin password, add users, add them to sudo group.
-4) Then, go to putty and create ssh keys, put one in vps, and try to connect through the key ( same goes for all users)
-5) Install apache or any other server, and run it
