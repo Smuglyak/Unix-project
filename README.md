@@ -12,7 +12,7 @@ Steven Facchino, and the chad himself Craig Justin Balibalos</h3>
 # Project goals:
 ### Create a VPS which will serve as website containing several webpages of the popular computer game Dota 2
 
-<img src="https://c.tenor.com/XYg91Fy0iYcAAAAC/dota2-ijudas.gif" height="260px">
+<img src="https://raw.githubusercontent.com/Smuglyak/Unix-project/main/images/dota2.gif" height="260px">
 
 # <img align="left" src="https://raw.githubusercontent.com/Smuglyak/Unix-project/main/images/settings.png" alt="img" width="50px"/> Platform choice:
 - Google Cloud VPS and Apache Server
