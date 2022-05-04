@@ -35,7 +35,7 @@
 
 # Putty
 
-7. Then,you and your team needs to install Putty. A program which will help your team to generate ssh keys and connect to the VPS with those keys. Go to [putty install website](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) and install it. Choose the msi type of file if you have windows or other types if you have another type of operating system.
+7. Then,you and your team needs to install Putty on your machines. A program which will help your team to generate ssh keys and connect to the VPS with those keys. Go to [putty install website](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) and install it. Choose the msi type of file if you have windows or other types if you have another type of operating system.
    <br/><br/>
 1. Once the Putty is installed, go through the installing process, and launch the Putty. Once launched, you will get a window with cursor in the Host Name textbox(IP adress). To connect to the VPS, you need the external IP address of the VPS and the ssh keys.
    <br/><br/>
@@ -46,12 +46,12 @@
 1. To get the ssh keys, launch PuttyGen on your computer search bar. Once launched, click on button named generate and go crazy with your mouse in the window space. Once the key is generated, in the key comment, put your username from the VPS and save it as a private key by pressing on the save private key button. Save it on the desired place on your disk and copy the public key which should start from: **ssh-rsa** keyword and finish with your **username** on it. Once that is done, go to Google Cloud Project details tab. Once there, you should find edit option in navigation bar. Click on it and slide down to the part where you will see ssh keys part. There, you must add item. In the ssh textbox, put the public key you copied and save the edits.
    <br/><br/>
 
-1. Once that is done, go again to putty, then in category, choose the SSH tab -> Auth tab. There should be a textbox for a private key we saved earlier. Browse to find the private key and select it. Once selected, go back to the session category and in the saved sessions put a name in the saved sessions textbox and save it. And you can open the session now!
+1. Once that is done, go again to putty, then in category, choose the SSH tab -> Auth tab. There should be a textbox for a private key we saved earlier. Browse to find the private key and select it. Once selected, go back to the session category and in the saved sessions put a name in the saved sessions textbox and save it. And you can open the session now! _Make sure, your network does not stop you from joining the server. If there is a problem, try to use any VPN._
 
 1. Once connected, you should be prompted with _login as_ keywords. Put your username and Enter. You should be redirected to the VPS and it is done! Your team can now configure the VPS and do it securely through ssh keys.<br/><br/>
 
 <p align="center">
-<img src="https://i.gifer.com/embedded/download/DJqQ.gif" />
+<img src="https://raw.githubusercontent.com/Smuglyak/Unix-project/main/images/sponge.gif" />
 </p>
 
 # Apache
@@ -67,8 +67,15 @@
 
 # WinSCP
 
-1. Go to this [website](https://winscp.net/eng/download.php) to download it.
+1. Go to this [website](https://winscp.net/eng/download.php) to download it on your machine.
 
 1. Once downloaded, go through the process of installing it and open it.
 
-1.
+1. Once opened, click on new session, another window will pop out. On that window, same as for Putty, put the external IP address in the host name textbox. The default port for apache is 22 so leave it as it is. Put your username and to authenticate with ssh key, you have to open advanced settings and leave the password blank. Just like in Putty, you find the ssh part, authentiaction tab after, and in there you can put your private key. Once everything is in place, you will be able to login. _Make sure, your network does not stop you from joining the server. If there is a problem, try to use any VPN._
+
+1. Once you are connected, you will have window separated into two file explorers. Left side is your machine, and on the right, it will be the VPS' file explorer. Now easily drag and drop files from your machine to the VPS. Since, we needed to put website on VPS apache server, we put the website folder in the following directory /var/www/html. _Make sure your welcome html file(home, starting file) is named index.html so that it is recognized by the apache server._
+
+1. Now just go to your browser and check what is on the exteriour IP address. You should be seeing your website now! **Yyay!!!!!**
+<p align="center">
+<img src="https://raw.githubusercontent.com/Smuglyak/Unix-project/main/images/excited.gif" />
+</p>
