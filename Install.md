@@ -79,3 +79,84 @@
 <p align="center">
 <img src="https://raw.githubusercontent.com/Smuglyak/Unix-project/main/images/excited.gif" />
 </p>
+
+# Scripting Task
+
+#### Creating a bash script
+
+1. Create a bash script in the /usr/loca/bin directory (bash script are files that ends in .sh).
+
+1. Use the command "touch /usr/local/bin/(whatever name you want).sh" to create the bash script.
+
+1. Write the command "sudo chmod a+wrx (name of the bash script)" to make the bash script executable and enable the user to modify the script.
+
+1. Write this code in the bash script:
+```
+cd (directory where the html files for the webserver are located) ex. /var/www/html
+sudo rm *.html //removes the html files inside the directory specified
+//if you have css files and image files for your website if not ignore the code inside {}.
+{
+cd (directory where the css files for the webserver are located) ex. /var/www/html/style
+sudo rm *.css
+cd (directory where the image files for the webserver are located) ex. /var/www/html/images
+sudo rm *.png //change the extension to fit what type of image file is located in the directory
+}
+cd (directory where the clone of the github repository is located) ex. /home/user/Team_Project //user is name of the user
+git pull
+sudo cp /home/user/Team_Project/Website/*.html /var/www/html //copies the files inside the clone repository to the directory which houses webserver website files
+//the code below is not mandatory to add to your bash script if they are not needed
+sudo cp /home/user/Team_Project/Website/style/*.css /var/www/html/style //if css files are needed for your website
+sudo cp /home/user/Team_Project/Website/images/*.png var/www/html/images //if image files are needed for your website
+sudo echo "Last Update was $(date)" > /var/www/html/UpdateLog.txt //writesthe date where the last time the bash script was ran
+```
+
+#### Creating the service file
+
+1. Create a service file in the /etc/systemd/system directory (service files are files that ends in .service).
+
+1. Use the command "touch /etc/systemd/system/(same name as the bash script).service" to create the file.
+
+1. Write the command "sudo chmod a+wrx (name of the service file)" to make it executable and enable the user to write to the file.
+
+1. Write this code in the service file:
+```
+[Unit]
+Description=Executes AutoPull.sh
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/local/bin/(name of the bash script)
+
+[Install]
+WantedBy=multi-user.target
+```
+
+#### Creating the timer file
+
+1. Create the timer file in the same directory as the service file (timer files are files that ends in .timer).
+
+1. Use the command "touch /etc/systemd/system/(same name as the bash script and service file).timer" to create the file.
+
+1. Write the command "sudo chmod a+wrx (name of the timer file)" to make it executable and enable the user to write to the file.
+
+1. Wwrite this code in the timer file:
+```
+[Unit]
+Description=Runs (name of the service file) every hour
+
+[Timer]
+Persistent=true
+OnBootSec=120
+OnCalendar=*-*-* *:*:00:00
+Unit=(name of the service file)
+
+[Install]
+WantedBy=timers.target
+```
+
+1. Write the command "sudo systemctl daemon-reload" in the terminal to make systemd aware of the newly added service and timer file.
+
+1. Write the command "sudo systemctl enable (name of the timer file)" and "sudo systemctl start (name of the timer file) in the terminal to enable the timer file to start at boot time and start it immediately.
+
+1. Write the command "sudo systemctl status (name of the timer file) (name of the service file) to check if the timer file is active.
+//if timer file says active and service file is inactive without any error then the service and timer is executed smoothly.
