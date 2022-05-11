@@ -1,5 +1,7 @@
 # Final Unix Project
 
+the link to our github: https://github.com/Smuglyak/Unix-project
+
 <p  align="center">
 
 <img  height="500"  src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2ViJTIwd2FsbHBhcGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80"  alt="my banner"></p>
