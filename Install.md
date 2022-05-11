@@ -107,7 +107,7 @@ sudo cp /home/user/Team_Project/Website/*.html /var/www/html //copies the files 
 //the code below is not mandatory to add to your bash script if they are not needed
 sudo cp /home/user/Team_Project/Website/style/*.css /var/www/html/style //if css files are needed for your website
 sudo cp /home/user/Team_Project/Website/images/*.png var/www/html/images //if image files are needed for your website
-sudo echo "Last Update was $(date)" > /var/www/html/UpdateLog.txt //writesthe date where the last time the bash script was ran
+sudo echo "Last Update was $(date)" > /var/www/html/UpdateLog.txt //writes the date where the last time the bash script was ran
 ```
 
 #### Creating the service file
@@ -121,11 +121,11 @@ sudo echo "Last Update was $(date)" > /var/www/html/UpdateLog.txt //writesthe da
 1. Write this code in the service file:
 ```
 [Unit]
-Description=Executes AutoPull.sh
+Description=Executes (name of your bash script)
 
 [Service]
 Type=simple
-ExecStart=/bin/bash /usr/local/bin/(name of the bash script)
+ExecStart=/bin/bash /usr/local/bin/(name of the bash script).sh
 
 [Install]
 WantedBy=multi-user.target
@@ -139,7 +139,7 @@ WantedBy=multi-user.target
 
 1. Write the command "sudo chmod a+wrx (name of the timer file)" to make it executable and enable the user to write to the file.
 
-1. Wwrite this code in the timer file:
+1. Write this code in the timer file:
 ```
 [Unit]
 Description=Runs (name of the service file) every hour
@@ -147,8 +147,8 @@ Description=Runs (name of the service file) every hour
 [Timer]
 Persistent=true
 OnBootSec=120
-OnCalendar=*-*-* *:*:00:00
-Unit=(name of the service file)
+OnCalendar=*-*-* *:*:00:00 //runs the service every hour
+Unit=(name of the service file).service
 
 [Install]
 WantedBy=timers.target
