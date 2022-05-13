@@ -147,7 +147,7 @@ Description=Runs (name of the service file) every hour
 [Timer]
 Persistent=true
 OnBootSec=120
-OnCalendar=*-*-* *:*:00:00 //runs the service every hour
+OnCalendar=*-*-* *:00:00 //runs the service every hour
 Unit=(name of the service file).service
 
 [Install]
