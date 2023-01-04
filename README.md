@@ -1,4 +1,5 @@
 # Final Unix Project
+## To run this website, install xampp, and move all files to htdocs folder of xampp. Launch xampp, and press on start button for apache server. In your browser, write localhost in the url, and you will access the website.
 
 the link to our github: https://github.com/Smuglyak/Unix-project
 
