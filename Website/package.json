@@ -1,9 +1,0 @@
-{
-  "scripts": {
-    "start": "nodemon script.js"
-  },
-  "dependencies": {
-    "node": "^17.7.2",
-    "nodemon": "file:..."
-  }
-}
