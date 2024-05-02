@@ -89,9 +89,3 @@ Week 15 – Finish the project and prepare for Oral Presentation.
 ![](https://img.shields.io/badge/Tools-Git-informational?style=flat&logo=Git&color=F05032)
 
 ![](https://img.shields.io/badge/Tools-GitHub-informational?style=flat&logo=GitHub&color=181717)
-
-## 📈 Alihan's GitHub Stats
-
-[![Smuglyak's github stats](https://github-readme-stats.vercel.app/api?username=Smuglyak)](https://github.com/yushi1007)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Smuglyak&layout=compact)](https://github.com/Smuglyak)
